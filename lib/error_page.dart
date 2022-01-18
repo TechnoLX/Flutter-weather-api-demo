@@ -6,7 +6,13 @@ class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('City not found...'),
+      child: Text(
+        'City Not Found...',
+        style: TextStyle(
+          fontSize: 30,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
     );
   }
 }
